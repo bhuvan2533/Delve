@@ -4,6 +4,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 body {
   font-family: "Poppins", "sans-serif";
@@ -24,7 +26,7 @@ body {
   right: 0;
   width: 100%;
   min-height: 100vh;
-  padding: 100px;
+  padding: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -156,31 +158,30 @@ header .logo {
   }
   .main-content p {
     color: white;
-    max-width: 700px;
+    max-width: 600px;
     font-size: 12px;
   }
 }
 @media (max-width: 564px) {
   .showcase,
   .showcase header {
-    padding: 18px;
+    padding: 14px;
   }
   header .logo,
   .toggle {
     font-size: 25px;
   }
   .main-content h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   .main-content h3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.5;
   }
   .main-content p {
     color: white;
-    max-width: 700px;
-    font-size: 12px;
-    line-height: 1.3;
+    max-width: 300px;
+    font-size: 14px;
   }
   .main-content a {
     padding: 7px 15px;
@@ -199,7 +200,7 @@ header .logo {
   position: absolute;
   top: 0;
   right: 0;
-  width: 300px;
+  width: 200px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -214,7 +215,8 @@ header .logo {
 .menu li a {
   text-decoration: none;
   color: #111;
-  font-size: 24px;
+  font-size: 20px;
+  
 }
 .menu li a:hover {
   color: rebeccapurple;
